@@ -17,7 +17,7 @@ jobs:
           python-version: "3.12"
 
       - name: Installer les dépendances
-        run: pip install -r requirements.tx
+        run: pip install -r requirements.txt
 
       - name: Vérifier la qualité du code
         run: ruff check .
